@@ -3,3 +3,5 @@
 __pychache__
 **/runs
 data
+dcc.egg-info
+dcc.code-workspace

@@ -1,9 +1,11 @@
 import os.path as osp
-import torch.utils.data as data
-from torch.utils.data.sampler import SequentialSampler, RandomSampler
-import scipy.io as sio
-import numpy as np
+
 import h5py
+import numpy as np
+import scipy.io as sio
+import torch.utils.data as data
+from torch.utils.data.sampler import RandomSampler, SequentialSampler
+
 
 class DCCPT_data(data.Dataset):
     """Custom dataset loader for Pretraining SDAE"""
